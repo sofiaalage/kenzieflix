@@ -1,0 +1,125 @@
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    font-size: 100%;
+    font: inherit;
+}
+
+body {
+    background-color: black;
+}
+
+.mainbox {
+    width: 1280px;
+    height: 720px;
+    background-color: #121214;
+    border-radius: 12px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 42px;
+}
+
+.titulo {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.secondbox {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 194px;
+    position: absolute;
+    bottom: 240px;
+    top: 286px;
+    left: 272px;
+    right: 290px;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.secondbox:hover {
+    color: white;
+}
+
+.vetor:hover {
+    background-color: white;
+}
+
+.box {
+    width: 160px;
+    height: 190px;
+    border-radius: 8px;
+    transition: all 700ms;
+}
+
+.boximg {
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    transition: all 700ms;
+    overflow: hidden;
+}
+
+.boximg:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+.imagem:hover {
+    transform: scale(1.50);
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    color: #9C9C9C;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2:hover {
+    color: white;
+}
+
+.addprofile {
+    position: relative;
+    top: 100px;
+}
+
+button {
+    position: relative;
+    margin: auto;
+    bottom: 0px;
+    left: 533px;
+    top: 320px;
+    width: 206px;
+    height: 50px;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    transition: all 700ms;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
